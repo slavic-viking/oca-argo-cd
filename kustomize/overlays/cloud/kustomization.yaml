@@ -12,8 +12,7 @@ patches:
     name: argocd-redis
 patchesStrategicMerge:
 - ingress.yaml
-- server.yaml
+#- server.yaml
 - repo-server.yaml
-- project-cicd.yaml
-- app-cicd.yaml
+- argocd-cm.yaml
 namespace: argocd
