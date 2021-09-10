@@ -10,7 +10,7 @@ spec:
   project: cicd
   source:
     repoURL: https://github.com/slavic-viking/oca-argo-cd.git
-    targetRevision: cloud
+    targetRevision: main
     path: cicd
   destination:
     server: https://kubernetes.default.svc
@@ -31,7 +31,7 @@ spec:
   project: core
   source:
     repoURL: https://github.com/slavic-viking/oca-argo-cd.git
-    targetRevision: cloud
+    targetRevision: main
     path: core
   destination:
     server: https://kubernetes.default.svc
