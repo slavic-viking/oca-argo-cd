@@ -96,7 +96,7 @@ spec:
   project: monitoring
   source:
     repoURL: https://github.com/slavic-viking/oca-argo-cd.git
-    targetRevision: cloud
+    targetRevision: main
     path: monitoring
   destination:
     server: https://kubernetes.default.svc
