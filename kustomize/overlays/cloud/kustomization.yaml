@@ -3,7 +3,7 @@ kind: Kustomization
 bases:
   - ../../base
 resources:
-- metrics
+- metrics.yaml
 patches:
 - path: redis_patch.json
   target:
