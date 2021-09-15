@@ -114,16 +114,16 @@ spec:
             - auxmoney-waterfall-panel
             - fatcloud-windrose-panel
             - magnesium-wordcloud-panel
-          # additionalDataSources:
-          #   - name: InfluxDB-HomeAssistant
-          #     type: influxdb
-          #     database: $INFLUXDBHA_DATABASE
-          #     user: ${INFLUXDBHA_USERNAME}
-          #     url: ${INFLUXDBHA_URL}
-          #     jsonData:
-          #       timeInterval: "15s"
-          #     secureJsonData:
-          #       password: ${INFLUXDBHA_PASSWORD}
+          additionalDataSources:
+            - name: InfluxDB-HomeAssistant
+              type: influxdb
+              database: $INFLUXDBHA_DATABASE
+              user: ${INFLUXDBHA_USERNAME}
+              url: ${INFLUXDBHA_URL}
+              jsonData:
+                timeInterval: "15s"
+              secureJsonData:
+                password: ${INFLUXDBHA_PASSWORD}
           dashboardProviders:
             dashboardproviders.yaml:
               apiVersion: 1
