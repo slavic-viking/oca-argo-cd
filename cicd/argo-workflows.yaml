@@ -10,7 +10,7 @@ spec:
   source:
     path: kustomize/overlays/cloud
     repoURL: https://github.com/slavic-viking/oca-argo-workflows.git
-    targetRevision: cloud
+    targetRevision: main
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
