@@ -10,7 +10,7 @@ spec:
   source:
     path: kustomize/overlays/local
     repoURL: https://github.com/slavic-viking/oca-argo-events.git
-    targetRevision: local
+    targetRevision: main
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
