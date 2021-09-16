@@ -8,7 +8,7 @@ metadata:
 spec:
   project: cicd
   source:
-    path: kustomize/overlays/local
+    path: kustomize/overlays/cloud
     repoURL: https://github.com/slavic-viking/oca-argo-events.git
     targetRevision: main
   destination:
