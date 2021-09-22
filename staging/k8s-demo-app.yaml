@@ -9,7 +9,7 @@ spec:
   project: staging
   source:
     path: kustomize/overlays/staging
-    repoURL: https://github.com/slavic-viking/k8s-demo-app
+    repoURL: https://github.com/slavic-viking/oca-argo-cd.git
     targetRevision: main
     kustomize:
       images:
