@@ -92,7 +92,6 @@ spec:
             - ae3e-plotly-panel
             - grafana-polystat-panel
             - corpglory-progresslist-panel
-            - snuids-radar-panel
             - scadavis-synoptic-panel/
             - michaeldmoore-scatter-panel
             - mxswat-separator-panel
