@@ -10,7 +10,7 @@ spec:
   source:
     path: kustomize/overlays/staging
     repoURL: https://github.com/slavic-viking/k8s-demo-app
-    targetRevision: HEAD
+    targetRevision: main
     kustomize:
       images:
       - slavicviking/k8s-demo-app:latest
