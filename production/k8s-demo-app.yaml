@@ -8,7 +8,7 @@ metadata:
 spec:
   project: production
   source:
-    path: kustomize/overlays/staging
+    path: kustomize/overlays/production
     repoURL: https://github.com/slavic-viking/oca-argo-cd.git
     targetRevision: HEAD
     kustomize:
