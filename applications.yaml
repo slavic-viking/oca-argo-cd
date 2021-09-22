@@ -52,7 +52,7 @@ spec:
   project: production
   source:
     repoURL: https://github.com/slavic-viking/oca-argo-cd.git
-    targetRevision: cloud
+    targetRevision: main
     path: production
   destination:
     server: https://kubernetes.default.svc
@@ -73,7 +73,7 @@ spec:
   project: staging
   source:
     repoURL: https://github.com/slavic-viking/oca-argo-cd.git
-    targetRevision: local
+    targetRevision: main
     path: staging
   destination:
     server: https://kubernetes.default.svc
