@@ -13,7 +13,7 @@ spec:
     targetRevision: main
     kustomize:
       images:
-      - slavicviking/k8s-demo-app:3ecf495ebe8afac59cb7090ad074084e82b3db0c
+      - slavicviking/k8s-demo-app:a7cb10ddcc12a9e9c008228f209066850df3ebd7
   destination:
     server: https://kubernetes.default.svc
     namespace: staging
